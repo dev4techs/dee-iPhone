@@ -1,10 +1,7 @@
 import React, { Component } from "react";
 class Home extends Component
 {
-    constructor(props)
-    {
-        super(props);
-    }
+
     render()
     {
     
@@ -16,7 +13,7 @@ class Home extends Component
                     <p className="text-start">#1 Buyer of Apple Products in  the U.S.</p>
                 </div>
                 <div className="col-6 mt-4">
-                        <img src="assets/images/logoweb.jpeg" className="fluid" style={{'border-radius': '50%'}} alt="Profile Picture" height="250" width="250"/>
+                        <img src="assets/images/logoweb.jpeg" className="fluid" style={{'border-radius': '50%'}} alt="Profile" height="250" width="250"/>
                 
                 </div>
                 

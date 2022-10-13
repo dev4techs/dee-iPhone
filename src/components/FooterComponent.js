@@ -9,7 +9,7 @@ class Footer extends Component
                 <div className="container">
                     <div className="row bg-dark bg-gradient text-white border border-secondary rounded justify-content-center m-auto">
                         <div className="col-6 col-sm-4">
-                        <img src="assets/images/logoweb.jpeg" className="fluid mt-1 mb-1" style={{'border-radius': '50%'}} alt="Profile Picture" height="150" width="150"/>
+                        <img src="assets/images/logoweb.jpeg" className="fluid mt-1 mb-1" style={{'border-radius': '50%'}} alt="Profile" height="150" width="150"/>
                         </div>
                         <div className="col-6 col-sm-8">
                         <h2>Contact Us</h2>
