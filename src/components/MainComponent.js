@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import FLYERS from '../shared/flyers';
 import {Routes, Route} from 'react-router-dom';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
@@ -25,7 +24,7 @@ class Main extends Component
         <div>
             <Header />
             <Routes>
-                <Route path="/" element={<Home recent={this.state.flyers}/>}/>
+                <Route path="/" element={<Home />}/>
                 <Route
                         path="*"
                         element={
